@@ -21,7 +21,7 @@ export const Signin = () => {
       .post("https://restaro-server.herokuapp.com/login",userData)
       .then((res) => {
         console.log(res.data);
-        alert("User Registered successfully");
+        alert("User Login successfully");
       })
       .catch((er) => {
         alert("Something Went wrong Please try again");
@@ -35,7 +35,7 @@ export const Signin = () => {
       <div id="signupForm">
         <form onSubmit={handleSubmit}>
           <input
-            type="email"
+            type="text"
             id="email"
             placeholder="Email or Phone"
             onChange={handleChange}

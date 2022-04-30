@@ -41,7 +41,7 @@ export const Signup = () => {
             id="user_name"
             placeholder="Name"
             onChange={handleChange}
-            value={userData.name}
+            value={userData.user_name}
           />
           <input
            
