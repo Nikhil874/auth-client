@@ -35,7 +35,7 @@ export const ResetPassword = () => {
       <div id="signupForm">
         <form onSubmit={handleSubmit}>
           <input
-            type="text"
+            type="password"
             id="setPassword"
             placeholder="Please enter your passowrd"
             onChange={handleChange}
