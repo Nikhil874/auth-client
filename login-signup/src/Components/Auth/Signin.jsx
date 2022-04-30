@@ -16,7 +16,7 @@ export const Signin = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(userData);
+    // console.log(userData);
     axios
       .post("https://restaro-server.herokuapp.com/login",userData)
       .then((res) => {
